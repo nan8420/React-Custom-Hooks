@@ -15,7 +15,7 @@ const UseInputPage = () => {
 
   return (
     <div>
-      <h1>useInput</h1>
+      <h1>UseInput</h1>
       <input value={inputValue} onChange={handleChange} />
       <button onClick={handleSubmit}>확인</button>
 

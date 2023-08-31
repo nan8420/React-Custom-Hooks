@@ -24,9 +24,15 @@ const Header = ({ isMain }) => {
           UseInputPage
         </Link>
       </h1>
-      <h1 className="header">Header1</h1>
-      <h1 className="header">Header1</h1>
-      <h1 className="header">Header1</h1>
+
+      <h1 className="header">
+        <Link
+          style={{ textDecoration: "none", color: "inherit" }}
+          to="/UseFetchPage"
+        >
+          UseFetchPage
+        </Link>
+      </h1>
     </div>
   );
 };
